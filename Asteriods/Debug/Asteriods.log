@@ -1,0 +1,43 @@
+﻿  Main.cpp
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(88): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(110): warning C4244: 'argument': conversion from 'std::size_t' to 'float', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(110): warning C4244: '=': conversion from 'float' to 'std::size_t', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(119): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(128): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(135): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(35): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\asteriods\factory.h(132): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kelsey.davis\desktop\base\asteriods\main.cpp(17): warning C4101: 'state': unreferenced local variable
+  Generating Code...
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(19): warning C4172: returning address of local variable or temporary
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(22): warning C4172: returning address of local variable or temporary
+c:\users\kelsey.davis\desktop\base\base\base\components\transform.h(65): warning C4715: 'base::Transform::removeChild': not all control paths return a value
+  Compiling...
+  MenuController.cpp
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(88): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(97): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(110): warning C4244: 'argument': conversion from 'std::size_t' to 'float', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(110): warning C4244: '=': conversion from 'float' to 'std::size_t', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(112): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(119): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(120): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(128): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\hull.h(135): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(29): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(30): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\math\collision.h(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(35): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(19): warning C4172: returning address of local variable or temporary
+c:\users\kelsey.davis\desktop\base\base\base\components\collider.h(22): warning C4172: returning address of local variable or temporary
+MenuController.obj : error LNK2005: "struct base::hull __cdecl base::operator*(union base::mat3 const &,struct base::hull)" (??Dbase@@YA?AUhull@0@ABTmat3@0@U10@@Z) already defined in Main.obj
+MenuController.obj : error LNK2005: "bool __cdecl base::BoundsTest(class base::Transform const *,class base::Collider const *,class base::Transform const *,class base::Collider const *)" (?BoundsTest@base@@YA_NPBVTransform@1@PBVCollider@1@01@Z) already defined in Main.obj
+MenuController.obj : error LNK2005: "struct base::collision __cdecl base::ColliderTest(class base::Transform const *,class base::Collider const *,class base::Transform const *,class base::Collider const *)" (?ColliderTest@base@@YA?AUcollision@1@PBVTransform@1@PBVCollider@1@01@Z) already defined in Main.obj
+MenuController.obj : error LNK2005: "struct base::collision __cdecl base::collides(struct base::hull const &,struct base::hull const &)" (?collides@base@@YA?AUcollision@1@ABUhull@1@0@Z) already defined in Main.obj
+C:\Users\kelsey.davis\Desktop\Base\Debug\Asteriods.exe : fatal error LNK1169: one or more multiply defined symbols found
