@@ -13,7 +13,7 @@ c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\ba
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\math\collision.h(30): warning C4018: '<': signed/unsigned mismatch
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\math\collision.h(34): warning C4018: '<': signed/unsigned mismatch
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\components\collider.h(35): warning C4018: '<': signed/unsigned mismatch
-c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\godisdead\factory.h(132): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\godisdead\factory.h(133): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\components\collider.h(19): warning C4172: returning address of local variable or temporary
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\components\collider.h(22): warning C4172: returning address of local variable or temporary
 c:\users\kelsey.davis\downloads\shittyasteriods-master\shittyasteriods-master\base\base\components\transform.h(65): warning C4715: 'base::Transform::removeChild': not all control paths return a value

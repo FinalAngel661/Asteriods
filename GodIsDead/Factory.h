@@ -67,6 +67,7 @@ public:
 		e->text->off_scale = vec2{ .5f,.5f };
 		e->text->setString("S_to_start");
 		e->transform->setLocalPosition(vec2{ x,y });
+		e->transform->setGlobalScale({ 50,50 });
 		return e;
 	}
 

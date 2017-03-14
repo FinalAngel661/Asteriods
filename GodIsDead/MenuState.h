@@ -30,7 +30,7 @@ public:
 		// call some spawning functions!
 		factory.spawnStaticImage(spr_space, 0, 0, 800, 600);
 	
-		factory.spawnStartButton(spr_font, 0, 0, 800, 600);
+		factory.spawnStartButton(spr_font, -300, -200, 800, 600);
 
 	}
 

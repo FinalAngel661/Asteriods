@@ -42,8 +42,8 @@ void main()
 			nextState = ms.next();
 			break;
 		case GAME:
-			/*game.init(font);
-			game.play();*/
+			gs.draw();
+			gs.step();
 			break;
 		case ENDGAME:
 			/*game.update(dt);
@@ -53,7 +53,7 @@ void main()
 
 		}
 
-		if (nextState == 1) state = GAME;
+		if (nextState == 1) { state = GAME, gs.play(); }
 	}
 
 	//gs.next(); Determine the ID of the next state to transition to.
